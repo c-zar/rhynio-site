@@ -1,0 +1,28 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+.w3-jumbo {
+    font-weight: 500;
+}
+
+.w3-bar, h1, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.fa-anchor, .fa-coffee {
+    font-size: 200px;
+}
+
+.orange-gradient {
+    background: rgb(255, 102, 0);
+    background: linear-gradient(0deg, rgba(255, 102, 0, 1) 0%, rgba(255, 158, 0, 1) 69%);
+    padding:128px 16px;
+}
+
+.dark-gray {
+    background: #1D1E22;
+    color: rgb(255, 102, 0);
+    color: linear-gradient(0deg, rgba(255, 102, 0, 1) 0%, rgba(255, 158, 0, 1) 69%);
+}
