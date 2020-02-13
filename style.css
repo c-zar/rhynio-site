@@ -11,18 +11,49 @@ body, h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
-.fa-anchor, .fa-coffee {
-    font-size: 200px;
-}
-
 .orange-gradient {
     background: rgb(255, 102, 0);
     background: linear-gradient(0deg, rgba(255, 102, 0, 1) 0%, rgba(255, 158, 0, 1) 69%);
-    padding:256px 16px;
 }
 
 .dark-gray {
     background: #1D1E22;
     color: rgb(255, 102, 0);
     color: linear-gradient(0deg, rgba(255, 102, 0, 1) 0%, rgba(255, 158, 0, 1) 69%);
+}
+
+.animated-darkwall{
+    background: url(dark_wall.png) repeat 0 0;
+    background-size: 12%;
+    -webkit-animation: slide 20s linear infinite;
+}
+
+.darkwall{
+    background: url(dark_wall.png) repeat 0 0;
+}
+
+.animated-darkgreen {
+    background: url(darkness.png) repeat 0 0;
+    background-size: 20%;
+    -webkit-animation: slide-td 20s linear infinite;
+}
+
+.offwhite{
+    max-width: 300px;
+    -webkit-animation: spin 4s linear infinite;
+}
+
+@-webkit-keyframes slide-rl {
+    from { background-position: 0 0; }
+    to { background-position: -1000px 0;}
+}
+
+@-webkit-keyframes slide-td {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 1000px;}
+}
+
+@-webkit-keyframes spin {
+    from {}
+    to {transform: rotate(-360deg);}
 }
