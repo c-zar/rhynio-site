@@ -95,10 +95,9 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .shoe {
     margin:auto;
-    height: 100%;
-    width: 100%;
-    padding: auto;
-    /* -webkit-animation: spin 4s linear infinite; */
+    height: 50%;
+    width: 60%;
+    -webkit-animation: spin 4s linear infinite;
 }
 
 .w3-third {
@@ -124,7 +123,7 @@ img {
 
 .card {
     align-items: center;
-    height: auto;
+    display: flex;
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -141,7 +140,10 @@ img {
 }
 
 .center {
-    height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+    	height: 100%;
 }
 
 .shake {
